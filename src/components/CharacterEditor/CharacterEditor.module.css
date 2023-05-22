@@ -1,6 +1,7 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  background-color: hsl(180deg, 25%, 92%);
 }
 
 .maxWidthWrapper {
@@ -8,6 +9,8 @@
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
+  position: relative;
 }
 
 .title {
@@ -23,8 +26,39 @@
   margin: 0;
 }
 
-.characterWrapper {
-}
 
 .controlColumn {
+  max-width: 50%;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .characterWrapper {
+    padding-bottom: 50px;
+    position: relative;
+  }
+  
+  .controlColumn {
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+    top: 200px;
+    max-width: 100vw;
+    margin-bottom: 200px;
+    z-index: 1;
+    margin-left: -32px;
+    margin-right: -32px;
+  }
+
+  .controlColumn > div:first-child {
+    margin-left: 32px;
+  }
+
+  .controlColumn > div:last-child {
+    margin-right: 32px;
+  }
+
+  .controlColumn::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
 }

@@ -120,6 +120,16 @@ On mobile devices, the cards should stack horizontally, and sit near the bottom 
 
 **NOTE:** This is a challenging stretch goal! It may require some CSS features we haven't covered yet. This is meant as an extra challenge for advanced students. Feel free to skip it!
 
+Try:
+1. add a media query
+2. turn .controlColumn into a Flexbox container
+3. give it a fixed position
+4. make it 150vw 
+5. make left -x% of the width
+6. turn it into a scroll container across the x axis
+7. hide the horizontal scrollbar
+
+
 ## Submissions
 
 **Workshops are submitted through the course platform.** Commit your changes, push them to your fork, and submit the link by clicking the "Complete lesson" button on the workshop page.

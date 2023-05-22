@@ -1,0 +1,7 @@
+.coloredAccentStrip {
+    position: fixed;
+    bottom: 0;
+    height: 40%;
+    min-width: 100vw;
+    background-color: hsl(195deg, 20%, 86%);
+}

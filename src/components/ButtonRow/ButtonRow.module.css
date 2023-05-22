@@ -1,2 +1,8 @@
 .buttonRow {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.buttonRow::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
 }
